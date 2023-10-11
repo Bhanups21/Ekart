@@ -2,11 +2,29 @@ Project title: Ekart Application
 
 Stack:
 
-	-> Backend: Java, Springboot with microservices.
+	-> Backend: Java 17, Springboot 3.1.4 with microservices.
 
 	-> Frontend: Angular.
 
 	-> Database: MySQL database.
+
+	-> Dependency Management: Maven
+
+		1. Maven Dependencies:
+
+			* Spring Boot DevTools.
+
+			* Lombok.
+
+			* Spring Web.
+
+			* Spring Data JPA.
+
+			* MySQL Driver.
+
+			* Validation.
+
+	-> Packaging: Jar.
 
 Users & Requirements:
 
@@ -36,10 +54,14 @@ Users & Requirements:
 
 			* for successful registration, the buyer is redirected to the login page for testing the password set.
 
-			* for unsucessful registration, redirect the buyer to an error page stating the error occured.
+			* for unsucessful registration, redirect the buyer to an error page stating the error occured and hyperlink to redirect to the registration page.
 
 		3. Forgot password:
 
+			* If the buyer forgots the password, he will get a reset link to mail or phone based on his choice and link will only work for 3mins.
+
 		4. update profile:
 
-		5. 
+			* Buyer can update all the information of his own at will.
+
+			* But for password change, he must go through the process as forgot password.
