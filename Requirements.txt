@@ -1,0 +1,45 @@
+Project title: Ekart Application
+
+Stack:
+
+	-> Backend: Java, Springboot with microservices.
+
+	-> Frontend: Angular.
+
+	-> Database: MySQL database.
+
+Users & Requirements:
+
+	-> Buyer:
+
+		1. Login:
+
+			* Buyer can login with either mobile number or email address along with the password.
+
+			* for both mail and phone number prompt should be same.
+
+			* for successful login, Buyer must enter either email or phone number and correct password along with captcha validation.
+
+			* if login is unsuccessful, then Buyer must stay in the same page.
+
+			* if login is unsuccessful, for more than three times, cool off period should be started for 10 minutes and Buyer can be again try to login after 10 minutes only.
+
+			* place a register hyperlink, in the login page.
+
+		2. Register:
+
+			* Buyer can register themselves by providing the following data of them: Firstname, Lastname, phone number, email, password, shipping addresses.
+
+			* Buyer password must be saved in the database in encrypted format.
+
+			* Shipping address can be multiple and has fields like Door no, landmark, area, district, state, country, pincode and nickname.
+
+			* for successful registration, the buyer is redirected to the login page for testing the password set.
+
+			* for unsucessful registration, redirect the buyer to an error page stating the error occured.
+
+		3. Forgot password:
+
+		4. update profile:
+
+		5. 
