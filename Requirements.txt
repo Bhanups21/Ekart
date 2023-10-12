@@ -26,7 +26,44 @@ Stack:
 
 	-> Packaging: Jar.
 
-Users & Requirements:
+Users:
+
+	-> Buyer:
+
+		1. id - long
+
+		2. firstName - String
+
+		3. lastName - String
+
+		4. phoneNumber - String
+
+		5. email - String
+
+		6. password - String
+
+		7. Address - object
+
+			a. id - long
+
+			b. doorNo - String
+
+			c. landMark - String
+
+			d. area - String
+
+			e. district - String
+
+			f. state - String
+
+			g. country - String
+
+			h. pincode - String
+
+			i. nickname - String
+
+
+Requirements:
 
 	-> Buyer:
 
@@ -67,6 +104,8 @@ Users & Requirements:
 
 			* But for password change, he must go through the process as forgot password.
 
-future ideas:
+future work:
 
 1. profile pictures for users, if not wanted default picture.
+
+2. define all vaslidation exception messages in messages.properties file and retrieve them in dto's.
