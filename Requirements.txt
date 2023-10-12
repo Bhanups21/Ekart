@@ -32,35 +32,35 @@ Users:
 
 		1. id - long
 
-		2. firstName - String
+		2. firstName - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-		3. lastName - String
+		3. lastName - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-		4. phoneNumber - String
+		4. phoneNumber - String (cannot be blank and must match pattern [6-9][0-9]{9})
 
-		5. email - String
+		5. email - String (cannot be blank and must match pattern [a-zA-Z0-9]+@[a-z]+(.com))
 
-		6. password - String
+		6. password - String (cannot be blank and must match pattern [a-zA-Z0-9]{8,12})
 
 		7. Address - object
 
-			a. id - long
+			a. id - long (cannot be blank and must match pattern [0-9]+)
 
-			b. doorNo - String
+			b. doorNo - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			c. landMark - String
+			c. landMark - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			d. area - String
+			d. area - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			e. district - String
+			e. district - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			f. state - String
+			f. state - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			g. country - String
+			g. country - String (cannot be blank and must match pattern [a-zA-Z]+)
 
-			h. pincode - String
+			h. pincode - String (cannot be blank and must match pattern [0-9]{6})
 
-			i. nickname - String
+			i. nickname - String (cannot be blank and must match pattern [a-zA-Z]+)
 
 
 Requirements:
